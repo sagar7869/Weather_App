@@ -1,0 +1,18 @@
+.timebox {
+  background-color: #52a37d;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 25px;
+  padding-top: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .timebox {
+    padding: 10px; /* Adjust padding for smaller screens */
+    border-radius: 10px; /* Smaller border radius for smaller screens */
+  }
+}
+
+
+

@@ -1,0 +1,5 @@
+body{
+    background-image: url(/public/pexels-eberhard-grossgasteiger-2310713.jpg);
+    background-size:cover;
+    background-clip: border-box;
+}

@@ -1,0 +1,93 @@
+.weathercard {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  overflow: hidden;
+  width: auto;
+  max-width: fit-content;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+}
+
+/* .windcss{
+  padding-right: 70px;
+} */
+
+
+
+.card1 {
+  background-color: #4698e6;
+  width: 500px;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+.card2 {
+  position: relative;
+  background-color: rgb(52, 140, 220);
+  margin-left: -70px;
+  padding: 25px;
+  text-transform: capitalize;
+}
+.card2 img {
+  text-align: center;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+.combcss {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 420px;
+  text-align: center;
+}
+
+.humcss {
+  text-align: center;
+}
+.humcss p {
+  display: flex;
+  align-items: center;
+}
+
+.imgbox {
+  font-size: 1.2rem;
+  color: rgb(197, 224, 248);
+  display: flex;
+  align-items: center;
+}
+
+.imgbox img {
+  margin-right: 10px;
+  max-width: 100%; /* Ensure images do not exceed their container width */
+  height: auto;
+}
+
+.combcss p {
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .weathercard {
+    flex-direction: column;
+  }
+
+  .card2 {
+  background-color: rgb(52, 140, 220);
+  margin-left: 0; /* Center align for smaller screens */
+  padding: 25px;
+  text-transform: capitalize;
+  text-align: center; /* Center-align text for smaller screens */
+}
+  .card1 {
+  background-color: #4698e6;
+  width: 100%; /* Take full width on smaller screens */
+  padding: 20px;
+  margin: 0; /* Remove right margin on smaller screens */
+}
+}

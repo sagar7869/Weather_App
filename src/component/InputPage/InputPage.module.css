@@ -1,0 +1,58 @@
+.boxcss{
+    text-align: center;
+}
+
+.boxcss input{
+    margin-top: 10px;
+    width: 25%;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f1f1f1;
+    font-size: 16px;
+}
+.boxcss input:focus{
+    background-color: #799DD7;
+    color: white;
+}
+
+.boxcss button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.boxcss button:last-child{
+    background-color: yellow;
+    color: black;
+    margin-left: 10px;
+}
+
+.boxcss button:focus{
+    background-color: #3e8e41;
+
+}
+
+@media (max-width: 768px) {
+  .boxcss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxcss button{
+    margin-top: 10px;
+    width: max-content;
+    margin-left: 12px;
+  }
+  .boxcss input{
+    margin: auto;
+  }
+ 
+}

@@ -1,0 +1,18 @@
+
+.footer-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-wrapper .footer {
+  background-color: rgb(10,110,253); 
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer-wrapper {
+    position: relative; /* Change position to relative for smaller screens */
+  }
+}
